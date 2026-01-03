@@ -59,7 +59,6 @@ for (let i = 0; i < playlists.length; i++) {
   playlistEl.appendChild(descriptionEl);
 
   const videosEl = document.createElement("ul");
-  playlistEl.appendChild(videosEl);
 
   for (let j = 0; j < playlist.videos.length; j++) {
     const video = playlist.videos[j];
@@ -82,5 +81,9 @@ for (let i = 0; i < playlists.length; i++) {
     videosEl.appendChild(videoEl);
   }
 
+  playlistEl.appendChild(videosEl);
+
   rootEl.appendChild(playlistEl);
 }
+
+function createVideoElement() {}
