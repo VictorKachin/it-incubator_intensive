@@ -44,46 +44,84 @@ const playlists = [
 // RENDER
 
 const rootEl = document.getElementById("root");
+MainComponent(playlists)
 
-for (let i = 0; i < playlists.length; i++) {
-  const playlist = playlists[i];
-  const playlistEl = document.createElement("div");
-  playlistEl.classList.add("playlist");
+// components
 
-  const titleEl = document.createElement("h2");
-  titleEl.textContent = playlist.title;
-  playlistEl.appendChild(titleEl);
-
-  const descriptionEl = document.createElement("p");
-  descriptionEl.textContent = playlist.description;
-  playlistEl.appendChild(descriptionEl);
-
-  const videosEl = document.createElement("ul");
-
-  for (let j = 0; j < playlist.videos.length; j++) {
-    const video = playlist.videos[j];
-    const videoEl = document.createElement("li");
-    videoEl.classList.add("video");
-
-    const imageEl = document.createElement("img");
-    imageEl.src = video.imageSource;
-    videoEl.appendChild(imageEl);
-
-    const titleEl = document.createElement("h3");
-    titleEl.textContent = video.title;
-    videoEl.appendChild(titleEl);
-
-    const urlEl = document.createElement("a");
-    urlEl.href = video.url;
-    urlEl.textContent = video.url;
-    videoEl.appendChild(urlEl);
-
-    videosEl.appendChild(videoEl);
+function MainComponent(inputPlaylists) {
+  for (let i = 0; i < inputPlaylists.length; i++) {
+    const playlist = inputPlaylists[i];
+    rootEl.append(PlaylistComponent(playlist));
   }
-
-  playlistEl.appendChild(videosEl);
-
-  rootEl.appendChild(playlistEl);
 }
 
-function createVideoElement() {}
+function PlaylistComponent(inputPlaylist) {
+  const element = document.createElement("div");
+  element.classList.add("playlist");
+
+  const playlistTitleEl = document.createElement("h2");
+  playlistTitleEl.textContent = inputPlaylist.title;
+  element.append(playlistTitleEl);
+
+  const descriptionEl = document.createElement("h3");
+  descriptionEl.textContent = inputPlaylist.description;
+
+  element.append(descriptionEl);
+
+  element.append(VideosComponent(inputPlaylist.videos));
+
+  return element;
+}
+
+function VideosComponent(inputVideo) {
+
+  const element = document.createElement("ul");
+
+  for (let j = 0; j < inputVideo.length; j++) {
+    const video = inputVideo[j];
+
+    const videoEl = VideoComponent(video);
+
+    element.append(videoEl);
+  }
+
+  return element
+}
+
+function VideoComponent(inputVideo) {
+  //create
+
+  const element = document.createElement("li");
+  element.classList.add("video");
+
+  // add data
+
+  element.append(
+    VideoImageComponent(inputVideo.imageSource),
+    VideoTitleComponent(inputVideo),
+    VideoUrlComponent(inputVideo),
+  );
+
+  // return
+
+  return element;
+}
+
+function VideoImageComponent(inputVideoSource) {
+  const imageElement = document.createElement("img");
+  imageElement.src = inputVideoSource;
+  return imageElement;
+}
+
+function VideoTitleComponent(inputVideo) {
+  const titleElement = document.createElement("h4");
+  titleElement.textContent = inputVideo.title;
+  return titleElement;
+}
+
+function VideoUrlComponent(inputVideo) {
+  const urlElement = document.createElement("a");
+  urlElement.href = inputVideo.url;
+  urlElement.textContent = inputVideo.url;
+  return urlElement;
+}
