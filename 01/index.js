@@ -100,7 +100,7 @@ function VideoComponent(inputVideo) {
 	const element = document.createElement('li')
 	element.classList.add('video')
 
-	// add data
+	// add state
 
 	element.append(
 		VideoImageComponent(inputVideo.imageSource),

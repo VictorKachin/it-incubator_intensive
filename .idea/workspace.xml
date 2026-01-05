@@ -5,32 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faf7fd99-0bfa-4ad6-b793-62233b415a2b" name="Changes" comment="Refactoring: creating components">
-      <change afterPath="$PROJECT_DIR$/01/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/img/80-pop-hits.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/img/80-pop-hits_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/img/80-rock-hits.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/img/80-rock-hits_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/img/images.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/img/rock-hits.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/01/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/it-incubator_intensive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01/.idea/it-incubator_intensive.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/80-pop-hits.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/01/img/80-pop-hits.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/80-pop-hits_1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/01/img/80-pop-hits_1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/80-rock-hits.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/01/img/80-rock-hits.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/80-rock-hits_1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/01/img/80-rock-hits_1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/images.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/01/img/images.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/rock-hits.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/01/img/rock-hits.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/ui/gameComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/ui/gameModeComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/ui/index..js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/ui/loseModeComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/ui/settingsModeComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/data/GAME_STATUSES.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/state/GAME_STATUSES.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/state/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -53,41 +38,46 @@
     &quot;assignee&quot;: &quot;VictorKachin&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/VictorKachin/it-incubator_intensive.git&quot;,
-    &quot;accountId&quot;: &quot;0722c13a-fdbb-427f-9ed0-2cbf4698d3b6&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/VictorKachin/it-incubator_intensive.git",
+    "accountId": "f743529a-323c-45e7-8adc-9505160bec5a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="37ktOGGNzmoHImuotQ9GWORug9G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/victor/Документы/WebProjects/it-incubator_intensive&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "D:/NewWebApps/it-incubator_intensive/05/ui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NewWebApps\it-incubator_intensive\05\ui" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -98,7 +88,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-WS-253.28294.332" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
       </set>
     </attachedChunks>
   </component>
@@ -115,6 +105,7 @@
       <workItem from="1767474402078" duration="35000" />
       <workItem from="1767474566118" duration="98000" />
       <workItem from="1767474763964" duration="889000" />
+      <workItem from="1767636809566" duration="5167000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring: creating components">
       <option name="closed" value="true" />
