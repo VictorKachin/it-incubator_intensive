@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf7fd99-0bfa-4ad6-b793-62233b415a2b" name="Changes" comment="Refactoring: creating components">
-      <change afterPath="$PROJECT_DIR$/05/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/ui/gameComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/ui/gameModeComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/ui/index..js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/ui/loseModeComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05/ui/settingsModeComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/01/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/data/GAME_STATUSES.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/state/GAME_STATUSES.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/state/data.js" afterDir="false" />
-    </list>
+    <list default="true" id="faf7fd99-0bfa-4ad6-b793-62233b415a2b" name="Changes" comment="Refactoring: creating components" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +94,7 @@
       <workItem from="1767474402078" duration="35000" />
       <workItem from="1767474566118" duration="98000" />
       <workItem from="1767474763964" duration="889000" />
-      <workItem from="1767636809566" duration="5167000" />
+      <workItem from="1767636809566" duration="5259000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring: creating components">
       <option name="closed" value="true" />
