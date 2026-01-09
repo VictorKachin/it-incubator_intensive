@@ -1,23 +1,24 @@
-import { GAME_STATUSES } from './GAME_STATUSES.js'
+import { GAME_STATUSES } from "./GAME_STATUSES.js";
 
 const _state = {
-	status: GAME_STATUSES.SETTINGS
-}
+  status: GAME_STATUSES.SETTINGS,
+};
 
-let observer = null
+let observer = null;
+
 export function subscribe(callback) {
-	observer = callback
+  observer = callback;
 }
 
-// getter
+// getter / selector
 
 export function getStatus() {
-	return _state.status
+  return _state.status;
 }
 
 // setter / command /mutation / action
 
 export function startGame() {
-	_state.status = GAME_STATUSES.IN_PROGRESS
-	observer()
+  _state.status = GAME_STATUSES.IN_PROGRESS;
+  observer();
 }

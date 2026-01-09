@@ -1,21 +1,21 @@
-import { getStatus, subscribe } from '../state/data.js'
-import { gameComponent } from './gameComponent.js'
+import { getStatus, subscribe } from "../state/data.js";
+import { gameComponent } from "./gameComponent.js";
 
-const rootElement = document.getElementById('root')
+const rootElement = document.getElementById("root");
 
 function render() {
-	rootElement.innerHTML = ''
+  rootElement.innerHTML = "";
 
-	const status = getStatus()
+  const status = getStatus();
 
-	const gameElement = gameComponent(status)
+  const gameElement = gameComponent(status);
 
-	rootElement.append(gameElement)
+  rootElement.append(gameElement);
 }
 
-render()
+render();
+
+subscribe(render);
 
 // https://www.youtube.com/watch?v=NbQ_ktgxF60
 // 56:30 - 1:03:18
-
-subscribe(render)
