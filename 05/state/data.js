@@ -39,9 +39,12 @@ export function getGooglePosition() {
 
 export function startGame() {
   _state.status = GAME_STATUSES.IN_PROGRESS;
+
   observer();
+
   setInterval(() => {
     _state.position.google.x++;
+
     observer();
   }, 1000);
 }
