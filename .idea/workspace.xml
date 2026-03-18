@@ -81,7 +81,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.31033.133" />
       </set>
     </attachedChunks>
   </component>
@@ -106,6 +106,9 @@
       <workItem from="1770279193311" duration="1456000" />
       <workItem from="1770281252696" duration="1425000" />
       <workItem from="1771359156060" duration="191000" />
+      <workItem from="1772090047444" duration="41000" />
+      <workItem from="1772293171427" duration="1666000" />
+      <workItem from="1772295648094" duration="110000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring: creating components">
       <option name="closed" value="true" />
