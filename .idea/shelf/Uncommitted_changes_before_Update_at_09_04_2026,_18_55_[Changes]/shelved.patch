@@ -1,0 +1,79 @@
+Index: 05/ui/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { getStatus, subscribe } from \"../state/data.js\";\nimport { gameComponent } from \"./gameComponent.js\";\n\nconst rootElement = document.getElementById(\"root\");\n\nfunction render() {\n  rootElement.innerHTML = \"\";\n\n  const status = getStatus();\n\n  const gameElement = gameComponent(status);\n\n  rootElement.append(gameElement);\n}\n\nrender();\n\nsubscribe(render);\n\n// https://www.youtube.com/watch?v=NbQ_ktgxF60\n// 56:30 - 1:03:18\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/05/ui/index.js b/05/ui/index.js
+--- a/05/ui/index.js	(revision b58a85005d66665eded14f547ebeda2f964e637a)
++++ b/05/ui/index.js	(date 1775750002808)
+@@ -18,4 +18,4 @@
+ subscribe(render);
+ 
+ // https://www.youtube.com/watch?v=NbQ_ktgxF60
+-// 56:30 - 1:03:18
++
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"faf7fd99-0bfa-4ad6-b793-62233b415a2b\" name=\"Changes\" comment=\"Refactoring: creating components\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"HTML File\" />\n        <option value=\"JavaScript File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;VictorKachin&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/VictorKachin/it-incubator_intensive.git&quot;,\n    &quot;accountId&quot;: &quot;f743529a-323c-45e7-8adc-9505160bec5a&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 3\n}</component>\n  <component name=\"ProjectId\" id=\"37ktOGGNzmoHImuotQ9GWORug9G\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\n    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,\n    &quot;last_opened_file_path&quot;: &quot;D:/NewWebApps/it-incubator_intensive/05/ui&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"D:\\NewWebApps\\it-incubator_intensive\\05\\ui\" />\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/01\" />\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"faf7fd99-0bfa-4ad6-b793-62233b415a2b\" name=\"Changes\" comment=\"\" />\n      <created>1767458863841</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1767458863841</updated>\n      <workItem from=\"1767458865884\" duration=\"1906000\" />\n      <workItem from=\"1767460872342\" duration=\"1051000\" />\n      <workItem from=\"1767462437831\" duration=\"52000\" />\n      <workItem from=\"1767474402078\" duration=\"35000\" />\n      <workItem from=\"1767474566118\" duration=\"98000\" />\n      <workItem from=\"1767474763964\" duration=\"889000\" />\n      <workItem from=\"1767636809566\" duration=\"5259000\" />\n      <workItem from=\"1768416517391\" duration=\"271000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Refactoring: creating components\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1767461828017</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1767461828017</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Refactoring: creating components\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Refactoring: creating components\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b58a85005d66665eded14f547ebeda2f964e637a)
++++ b/.idea/workspace.xml	(date 1775750003234)
+@@ -4,7 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="faf7fd99-0bfa-4ad6-b793-62233b415a2b" name="Changes" comment="Refactoring: creating components" />
++    <list default="true" id="faf7fd99-0bfa-4ad6-b793-62233b415a2b" name="Changes" comment="Refactoring: creating components">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/05/ui/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/ui/index.js" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -30,7 +33,7 @@
+   <component name="GithubPullRequestsUISettings">{
+   &quot;selectedUrlAndAccountId&quot;: {
+     &quot;url&quot;: &quot;https://github.com/VictorKachin/it-incubator_intensive.git&quot;,
+-    &quot;accountId&quot;: &quot;f743529a-323c-45e7-8adc-9505160bec5a&quot;
++    &quot;accountId&quot;: &quot;0722c13a-fdbb-427f-9ed0-2cbf4698d3b6&quot;
+   }
+ }</component>
+   <component name="ProjectColorInfo">{
+@@ -50,8 +53,10 @@
+     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
++    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+     &quot;last_opened_file_path&quot;: &quot;D:/NewWebApps/it-incubator_intensive/05/ui&quot;,
+@@ -77,7 +82,7 @@
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
++        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-WS-261.22158.274" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -96,6 +101,11 @@
+       <workItem from="1767474763964" duration="889000" />
+       <workItem from="1767636809566" duration="5259000" />
+       <workItem from="1768416517391" duration="271000" />
++      <workItem from="1770713661125" duration="24000" />
++      <workItem from="1770714749128" duration="8000" />
++      <workItem from="1775736261161" duration="406000" />
++      <workItem from="1775736789748" duration="3940000" />
++      <workItem from="1775749503761" duration="493000" />
+     </task>
+     <task id="LOCAL-00001" summary="Refactoring: creating components">
+       <option name="closed" value="true" />

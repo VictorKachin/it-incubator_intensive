@@ -4,8 +4,8 @@ const _state = {
 	status: GAME_STATUSES.SETTINGS,
 	settings: {
 		gridSize: {
-			rowCount: 4,
-			columnCount: 4
+			rowsCount: 4,
+			columnsCount: 4
 		}
 	},
 	position: {
@@ -40,19 +40,30 @@ export function getGooglePosition() {
 export function startGame() {
 	_state.status = GAME_STATUSES.IN_PROGRESS
 
+	_teleportGoogle()
+
 	observer()
 
-	setInterval(() => {
-		_state.position.google.x++
-
-		observer()
-	}, 1000)
+	setInterval(_teleportGoogle, 1000)
 }
 
-// function getRandomInt(max) {
-// 	return Math.floor(Math.random() * max)
-// }
+function _teleportGoogle() {
+	const newX = getRandomInt(getGridSize().columnsCount)
+	const newY = getRandomInt(getGridSize().rowsCount)
+
+	if (
+		newX === getGooglePosition().x && newY === getGooglePosition().y) {
+		_teleportGoogle()
+		return
+	}
+
+		_state.position.google.x = newX
+		_state.position.google.y = newY
+		observer()
+}
+
+function getRandomInt(max) {
+	return Math.floor(Math.random() * max);
+}
 
 // https://www.youtube.com/watch?v=NbQ_ktgxF60
-// 1:35:00
-// !!!

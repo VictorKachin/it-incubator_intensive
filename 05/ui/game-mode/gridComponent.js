@@ -6,10 +6,10 @@ export const Grid = () => {
 	const gridSize = getGridSize()
 	const googlePosition = getGooglePosition()
 
-	for (let y = 0; y < gridSize.rowCount; y++) {
+	for (let y = 0; y < gridSize.rowsCount; y++) {
 		const row = document.createElement('tr')
 
-		for (let x = 0; x < gridSize.columnCount; x++) {
+		for (let x = 0; x < gridSize.columnsCount; x++) {
 			const cell = document.createElement('td')
 			// cell.append(x, '-', y)
 

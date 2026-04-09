@@ -10,7 +10,7 @@ export function SettingsMode() {
   element.append(gridSizeSelectElement);
 
   const startButtonElement = document.createElement("button");
-  startButtonElement.append("START");
+  startButtonElement.append("START!");
 
   startButtonElement.addEventListener("click", () => {
     console.log(getStatus());
