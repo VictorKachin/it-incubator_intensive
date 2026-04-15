@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf7fd99-0bfa-4ad6-b793-62233b415a2b" name="Changes" comment="Refactoring: creating components">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="faf7fd99-0bfa-4ad6-b793-62233b415a2b" name="Changes" comment="Refactoring: creating components" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +100,7 @@
       <workItem from="1768416517391" duration="271000" />
       <workItem from="1776245194966" duration="1968000" />
       <workItem from="1776247260919" duration="381000" />
-      <workItem from="1776251227656" duration="694000" />
+      <workItem from="1776251227656" duration="1127000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring: creating components">
       <option name="closed" value="true" />
